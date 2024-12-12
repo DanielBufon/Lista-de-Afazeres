@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+:root{
+    --neutro:#f9f9f9;
+    --corPrimaria: #253342;
+     --corSecundaria:#53576b;
+     --tam-titulo: 30px;
+}
+body{
+    background-color: var(--corPrimaria) ;
+    display: flex;
+    align-items: center;
+
+}
+.container{ 
+    display: flex;
+    width: 500px;
+    height: auto;
+    
+    gap: 30px;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+img{
+    /*height: 600px;*/
+    width: 250px;
+}
+#input-item {
+    width:350px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#button {
+    padding: 7.5px;
+    border-radius: 20px;
+    cursor: pointer;;
+}
+#button:hover {
+    background-color: var(--corSecundaria);
+    color: var(--neutro);
+}
+h2 {
+    color: aliceblue;
+}
+hr {
+    border: 1.5px dotted aliceblue;
+    margin-bottom: 10px;
+}
+p {
+    color: azure;
+    font-size: 17px;
+}
+.listaDeAfazeres{ 
+    display: flex;
+    flex-direction: column;
+}
+.containerlista{
+    width: 80%;
+}
+.containerItemLista{
+    display: flex;
+    justify-content:space-between 
+}
+.containerCheckbox{
+    display: flex;
+}
+.containerCheckbox input{
+    height:20px;
+    width: 20px ; 
+    margin-right: 20px;
+}
+ul{
+   list-style-type:none;
+}
+
+.buttonItemLista{
+    margin-left: 10px;
+}
